@@ -6,14 +6,14 @@
 */
 const products = [
   { id: "sg-sport-01", name: "SPORT FRAME 01", price: 500, description: "Sporty wraparound sunglasses with a clean, bold profile.", image: "assets/images/sports1.jpeg", category: "sport", label: "SPORT SERIES" },
-  { id: "sg-sport-02", name: "SPORT FRAME 02", price: 650, description: "A streamlined frame for an active, everyday look.", image: "assets/images/sport-frame-02.svg", category: "sport", label: "SPORT SERIES" },
-  { id: "sg-sport-03", name: "SPORT FRAME 03", price: 750, description: "Modern sports styling with a low-profile silhouette.", image: "assets/images/sport-frame-03.svg", category: "sport", label: "SPORT SERIES" },
+  { id: "sg-sport-02", name: "SPORT FRAME 02", price: 650, description: "A streamlined frame for an active, everyday look.", image: "assets/images/sports2.jpeg", category: "sport", label: "SPORT SERIES" },
+  { id: "sg-sport-03", name: "SPORT FRAME 03", price: 750, description: "Modern sports styling with a low-profile silhouette.", image: "assets/images/sports3.jpeg", category: "sport", label: "SPORT SERIES" },
   { id: "sg-sport-04", name: "EVERYDAY FRAME 04", price: 900, description: "A versatile frame designed to work beyond the track.", image: "assets/images/sport-frame-04.svg", category: "everyday", label: "EVERYDAY" },
   { id: "sg-sport-05", name: "SPORT FRAME 05", price: 1100, description: "A statement wraparound look with a confident finish.", image: "assets/images/sport-frame-05.svg", category: "sport", label: "SPORT SERIES" },
   { id: "sg-sport-06", name: "EVERYDAY FRAME 06", price: 1300, description: "Contemporary eyewear for casual, daily styling.", image: "assets/images/sport-frame-06.svg", category: "everyday", label: "EVERYDAY" }
 ];
 
-const WHATSAPP_NUMBER = "54********";
+const WHATSAPP_NUMBER = "8177904398";
 
 function formatPrice(price) {
   return new Intl.NumberFormat("en-IN", {
