@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f4f2ec">
+  <meta name="description" content="Shop the SG Collection sports eyewear range.">
+  <title>Shop | SG COLLECTION</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/shop.css">
+  <script src="js/products.js" defer></script>
+  <script src="js/shop.js" defer></script>
+</head>
+<body class="shop-body">
+  <header class="shop-header">
+    <a class="shop-brand" href="index.html">SG COLLECTION<span>SPORT EYEWEAR</span></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a class="active" href="shop.html">SHOP</a>
+      <a href="#collection">COLLECTION</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+    <a class="header-cta" href="#collection">EXPLORE FRAMES <span>↘</span></a>
+  </header>
+
+  <main>
+    <section class="shop-hero">
+      <div class="shop-hero-copy">
+        <p class="eyebrow dark-eyebrow">SG / SPORT SERIES — 2026</p>
+        <h1>MADE TO<br><em>MOVE.</em></h1>
+        <p>Sport-inspired frames. Everyday confidence.<br>Find the frame that fits your pace.</p>
+        <a href="#collection" class="text-link">SHOP THE COLLECTION <span>↘</span></a>
+      </div>
+      <div class="shop-hero-image">
+        <img src="assets/images/hero-sports-sunglasses.svg" alt="SG Collection sports sunglasses">
+        <span class="image-index">01 / SPORT SERIES</span>
+      </div>
+    </section>
+
+    <section class="collection-section" id="collection">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow dark-eyebrow">THE LINE-UP</p>
+          <h2>Available frames<span>.</span></h2>
+        </div>
+        <p class="section-note">Everyday pricing. Sport-ready style.</p>
+      </div>
+
+      <div class="shop-controls">
+        <label class="search-wrap">
+          <span class="visually-hidden">Search products</span>
+          <input id="productSearch" type="search" placeholder="Search frames..." autocomplete="off">
+        </label>
+        <div class="filter-row" role="group" aria-label="Filter products">
+          <button class="filter-button active" type="button" data-filter="all">All frames</button>
+          <button class="filter-button" type="button" data-filter="sport">Sport</button>
+          <button class="filter-button" type="button" data-filter="everyday">Everyday</button>
+        </div>
+      </div>
+
+      <p class="result-count" id="resultCount" aria-live="polite">Loading frames...</p>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <h3>No frames found</h3>
+        <p>Try a different search or category.</p>
+      </div>
+    </section>
+
+    <section class="about-strip" id="about">
+      <div>
+        <p class="eyebrow">THE SG APPROACH</p>
+        <h2>Good frames.<br><em>No fuss.</em></h2>
+      </div>
+      <p>Explore sport-inspired eyewear selected for a clean look and everyday wear. Choose a frame, tap Buy Now, and send your order enquiry directly on WhatsApp.</p>
+    </section>
+  </main>
+
+  <footer class="shop-footer">
+    <a class="shop-brand footer-brand" href="index.html">SG COLLECTION<span>SPORT EYEWEAR</span></a>
+    <p>SPORT / COMFORT / STYLE</p>
+    <p>© 2026 SG COLLECTION</p>
+  </footer>
+</body>
+</html>
